@@ -1,0 +1,108 @@
+<div class="app-single-order">
+
+
+<label>
+  <br>
+  Order No: <input type="text" name=order>
+  &nbsp;&nbsp;&nbsp;
+  <button type="submit">submit</button>
+</label>
+<br>
+<br>
+<div>
+    <table class="table table-bordered">
+
+
+      <thead class="thead-light">
+        
+         <tr>
+            <th colspan="4">order details</th>
+         
+
+
+         </tr>
+      </thead>
+
+         <thead class="thead-dark">
+          <tr>
+          
+            <th scope="col">S.no</th>
+            <th scope="col">Details</th>
+            <th scope="col">Address</th>
+            <th scope="col">Contact</th>
+          </tr>
+        </thead>
+        <tbody class="first">
+          <tr>
+            <th scope="row">{{binding.sno}}</th>
+            <td>{{binding.details}}</td>
+            <td>{{binding.address}}</td>
+            <td>{{binding.contact}}</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      
+</div>
+<br>
+<br>
+<div>
+    <table class="table table-bordered">
+      <thead class="thead-light">
+        
+        <tr>
+           <th colspan="5">Status</th>
+        
+
+
+        </tr>
+     </thead>
+
+  <thead>
+          <tr>
+      
+      <th scope="col">s.no</th>
+      <th scope="col">Date</th>
+      <th scope="col">Time</th>
+      <th scope="col">Status</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+  <tbody class="second">
+    <tr>
+      <th scope="row">1</th>
+      <td>Name1</td>
+      <td>Order1</td>
+      <td>Address1</td>
+      <td>dd//mm/yyyy</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Name2</td>
+      <td>Order2</td>
+      <td>Address 2></td>
+      <td>dd//mm/yyyy</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Name3</td>
+      <td>order3</td>
+      <td>Address3</td>
+      <td>dd//mm/yyyy</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
